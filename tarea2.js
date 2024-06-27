@@ -24,3 +24,4 @@ const duplicaValor = ( array ) => {
 
  const myArray = [1, 2, 4, 5] ;
  console.log(  duplicaValor( myArray )   ); 
+ 

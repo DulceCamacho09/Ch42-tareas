@@ -34,3 +34,39 @@ for (let i = 0; i < people.length; i++) {
 console.log(people.indexOf("Maria")); // Prints the index of "Maria"
 
 console.log(people); // Prints the final array with 4 people
+
+let personas = ["Maria", "Dulce", "Arturo", "Alexis", "Lulu"];
+
+
+console.log(personas);
+
+
+personas.splice(personas.indexOf("Maria"), 1);
+console.log(personas); 
+
+
+personas.splice(personas.indexOf("Dulce"), 1);
+console.log(personas); 
+
+
+personas.splice(personas.indexOf("Arturo"), 1);
+personas.unshift("Luis");
+console.log(personas); 
+
+
+personas.push("Arturo");
+console.log(personas); 
+
+
+for (let i = 0; i < personas.length; i++) {
+    console.log(personas[i]);
+    if (personas[i] === "Maria") {
+        break;
+    }
+}
+
+
+console.log(personas.indexOf("Maria")); // 1
+
+
+console.log(personas); 
