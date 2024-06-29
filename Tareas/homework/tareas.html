@@ -22,6 +22,13 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+        .container img {
+            width: 150px; /* Ajusta el tamaño según sea necesario */
+            height: 150px; /* Ajusta el tamaño según sea necesario */
+            border-radius: 50%; /* Hace la imagen redonda */
+            object-fit: cover; /* Ajusta la imagen para que se recorte dentro del contenedor */
+            margin-bottom: 20px; /* Espacio entre la imagen y el título */
+        }
         h1 {
             color: #333;
         }
@@ -43,15 +50,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>Portada de Tareas</h1>
-        <p>Selecciona una tarea para ejecutar su script correspondiente:</p>
+        <img src="./img/dul.jpg" alt="Imagen de portada"> <!-- Asegúrate de cambiar la ruta a tu imagen -->
+        <h1>Tareas</h1>
+        <p>Selecciona una tarea y observa el codigo :</p>
         <ul>
-             <li><a href="tarea1.js">Tarea 1</a></li> 
-            <li><a href="tarea2.js">Tarea 2</a></li> 
-             <li><a href="tarea3.js">Tarea 3</a></li> 
+            <li><a href="tarea1.js">Tarea 1</a></li>
+            <li><a href="tarea2.js">Tarea 2</a></li>
+            <li><a href="tarea3.js">Tarea 3</a></li>
             <li><a href="tarea4.js">Tarea 4</a></li>
-             <li><a href="tarea5.js">Tarea 5</a></li> 
-             <li><a href="tarea6.js">Tarea 6</a></li> 
+            <li><a href="tarea5.js">Tarea 5</a></li>
+            <li><a href="tarea6.js">Tarea 6</a></li>
         </ul>
     </div>
     <!-- <script src="tarea1.js"></script> -->

@@ -1,6 +1,8 @@
 console.log("TAREA #5")
 
 /* Exercise #5
+El fin de semana doy push y actualizo 
+
 For each of the exercises below, assume you are starting with the following people array.
 let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 Write a command that prints out all of the people in the list.
